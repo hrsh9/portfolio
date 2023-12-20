@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2>Harsh <span>Kumar</span></h2>
+            <ul>
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#project">Projects</a></li>
+            </ul>
+            <h2><a href="#contact" id="contact">Contact Me</a></h2>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            <div id="description">
+                <h3>Full Stack <span>MERN</span> Developer</h3>
+            </div>
+        </section>
+
+        <section id="project"></section>
+
+        <section id="contact">
+            <form action="" method="GET">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" name="email" required>
+                <textarea name="" id="msg" rows="5" placeholder="Enter your message..." required></textarea>
+                <input type="submit" value="Submit" id="submit-btn">
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
