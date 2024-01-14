@@ -64,6 +64,7 @@ nav h2 a{
     background-position: center;
     background-attachment: fixed;
     background-position: left;
+    position: static;
 }
 #description h3{
     color: wheat;
